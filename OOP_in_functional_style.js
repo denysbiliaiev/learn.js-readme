@@ -16,6 +16,7 @@ function Machine(power) {
 }
 
 function CoffeeMachine(power, capacity) {
+    //наследование с использованием наложения конструкторов
     Machine.apply(this, arguments);
 
     let self = this;
